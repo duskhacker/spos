@@ -1,6 +1,6 @@
 package cafe
 
-import "github.com/duskhacker/cqrsnu/internal/github.com/bitly/go-nsq"
+import nsq "github.com/bitly/go-nsq"
 
 func OpenTabHandler(msg *nsq.Message) error {
 	cmd := new(OpenTab).FromJSON(msg.Body)

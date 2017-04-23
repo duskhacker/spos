@@ -3,9 +3,9 @@ package cheftodos
 import (
 	"fmt"
 
+	nsq "github.com/bitly/go-nsq"
 	"github.com/pborman/uuid"
 
-	"github.com/duskhacker/cqrsnu/internal/github.com/bitly/go-nsq"
 	. "github.com/duskhacker/cqrsnu/internal/github.com/onsi/ginkgo"
 	. "github.com/duskhacker/cqrsnu/internal/github.com/onsi/gomega"
 

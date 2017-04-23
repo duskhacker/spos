@@ -4,10 +4,9 @@ import (
 	"log"
 	"sync"
 
-	"github.com/bitly/nsq/apps/"
+	"github.com/bitly/go-nsq"
 	"github.com/duskhacker/cqrsnu/serializer"
 	"github.com/p4tin/goaws/app"
-	"github.com/bitly/go-nsq"
 )
 
 var (

@@ -4,9 +4,9 @@ import (
 	"net/http"
 
 	"github.com/duskhacker/cqrsnu/cafe"
-	"github.com/pborman/uuid"
-	"github.com/gin-gonic/gin"
 	"github.com/duskhacker/cqrsnu/read_models/chef_todos"
+	"github.com/gin-gonic/gin"
+	"github.com/pborman/uuid"
 )
 
 // Test Data

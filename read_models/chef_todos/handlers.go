@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
+	nsq "github.com/bitly/go-nsq"
 	"github.com/duskhacker/cqrsnu/cafe"
-	"github.com/duskhacker/cqrsnu/internal/github.com/bitly/go-nsq"
 )
 
 var (
